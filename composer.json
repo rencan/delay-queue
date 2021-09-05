@@ -1,0 +1,17 @@
+{
+    "name": "delay-queue/delay-queue",
+    "description": "send you delay-queue job to redis, mq",
+    "keywords": ["delay", "queue", "psr-4"],
+    "authors": [
+        {
+            "name": "JimmyCan",
+            "email" : "JimmyCan@foxmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {"Queue\\": "src"}
+    }
+}
